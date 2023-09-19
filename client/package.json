@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server":"nodemon bankend/server.js",
+    "server":"nodemon server.js",
     "client":"npm start --prefix ./forntend",
     "dev":"concurrently \"npm start\"npm run client\""
   },
