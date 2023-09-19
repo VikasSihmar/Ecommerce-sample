@@ -4,9 +4,10 @@
   "description": "",
   "main": "bankend/server.js",
   "scripts": {
-    "start": "nodemon bankend/server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-production": "NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend && npm run build --prefix frontend"
+    "server":"nodemon bankend/server.js",
+    "dev":"concurrently \"npm start\"npm run forntend\""
   },
   "author": "",
   "license": "ISC",
