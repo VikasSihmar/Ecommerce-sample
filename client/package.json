@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server":"nodemon bankend/server.js",
     "client":"npm start --prefix ./forntend",
-    "dev":"concurrently \"npm start\"npm run forntend\""
+    "dev":"concurrently \"npm start\"npm run client\""
   },
   "author": "",
   "license": "ISC",
